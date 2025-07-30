@@ -2,7 +2,7 @@
 
 A Chrome extension that helps you view company reviews from Glassdoor or Indeed while browsing job postings. Perfect for quickly researching companies during your job search.
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![Version](https://img.shields.io/badge/version-1.0.1-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 [![GitHub](https://img.shields.io/badge/github-mandrewf/job--review--helper-blue)](https://github.com/Mandrewf/job-review-helper)
 
