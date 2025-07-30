@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Job Review Helper</title>
+  <style>
+    body {
+      width: 280px;
+      padding: 15px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+      color: #333;
+      margin: 0;
+    }
+    h1 {
+      font-size: 18px;
+      margin-top: 0;
+      color: #2c3e50;
+      text-align: center;
+      margin-bottom: 15px;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 10px;
+    }
+    .source-selector {
+      margin: 15px 0;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      background-color: #3498db;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s, transform 0.1s;
+      position: relative;
+      overflow: hidden;
+    }
+    button:hover {
+      background-color: #2980b9;
+    }
+    button:active {
+      transform: scale(0.98);
+    }
+    button:disabled {
+      background-color: #95a5a6;
+      cursor: not-allowed;
+    }
+    .settings {
+      margin-top: 15px;
+      padding-top: 10px;
+      border-top: 1px solid #eee;
+    }
+    label {
+      display: block;
+      margin: 8px 0;
+      font-size: 14px;
+    }
+    select {
+      width: 100%;
+      padding: 8px;
+      margin: 5px 0 10px 0;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      background-color: #f9f9f9;
+    }
+    .spinner {
+      display: none;
+      width: 16px;
+      height: 16px;
+      border: 3px solid rgba(255,255,255,0.3);
+      border-radius: 50%;
+      border-top-color: white;
+      animation: spin 1s ease-in-out infinite;
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    @keyframes spin {
+      to { transform: translateY(-50%) rotate(360deg); }
+    }
+    button.loading .spinner {
+      display: inline-block;
+    }
+    .version {
+      font-size: 10px;
+      color: #999;
+      text-align: center;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Job Review Helper</h1>
+  
+  <div class="source-selector">
+    <label for="reviewSource">Select Review Source:</label>
+    <select id="reviewSource">
+      <option value="glassdoor">Glassdoor</option>
+      <option value="indeed">Indeed</option>
+    </select>
+  </div>
+
+  <button id="showReviews">Show Reviews<span class="spinner"></span></button>
+  
+  <div class="settings">
+    <label>
+      <input type="checkbox" id="autoDetect"> Auto-detect company name
+    </label>
+  </div>
+
+  <div class="version">v1.0.0</div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
