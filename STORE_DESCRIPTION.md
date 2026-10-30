@@ -34,7 +34,7 @@ Job Review Helper is a lightweight Chrome extension that allows you to quickly v
 Job Review Helper respects your privacy and only accesses the current tab when you activate it. No data is collected or stored beyond your preferences (review source choice and auto-detection setting).
 
 #### Support:
-For issues, feature requests, or contributions, visit our GitHub repository: https://github.com/Mandrewf/job-review-helper
+For issues, feature requests, or contributions, visit our GitHub repository: https://github.com/Michael-Fisher9/job-review-helper
 
 Make smarter career decisions with Job Review Helper - your companion for efficient company research during job hunting!
 

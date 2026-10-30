@@ -34,6 +34,6 @@ This Privacy Policy may be updated from time to time. We will notify you of any 
 
 ## Contact
 
-If you have any questions about this Privacy Policy, please contact the developer through GitHub: [https://github.com/Mandrewf](https://github.com/Mandrewf)
+If you have any questions about this Privacy Policy, please contact the developer through GitHub: [https://github.com/Michael-Fisher9](https://github.com/Michael-Fisher9)
 
 Last updated: July 29, 2025
